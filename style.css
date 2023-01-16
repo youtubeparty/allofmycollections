@@ -4,6 +4,7 @@ body{
 	margin: 0;
 	padding: 0;
 }
+
 .checkerboard{
 	width: 100%;
 	height: 100vh;
@@ -15,7 +16,6 @@ body{
 	animation: slide 1.5s linear infinite;
 	image-rendering: pixelated;
 }
-	
 
 @keyframes slide{
 	0%{
