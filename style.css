@@ -3,12 +3,6 @@
 body{
 	margin: 0;
 	padding: 0;
-}
-
-.checkerboard{
-	width: 100%;
-	height: auto;
-	margin: 0;
 	position: absolute;
 	background: url("bg003checkerboard.png");
 	background-size: 100px;
@@ -18,6 +12,13 @@ body{
 	display: flex;
   	flex-wrap: wrap;
   	justify-content: center;
+}
+
+.checkerboard{
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: center;
+	
 }
 
 @keyframes slide{
