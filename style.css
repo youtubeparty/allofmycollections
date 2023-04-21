@@ -4,7 +4,7 @@ body{
 	margin: 0;
 	padding: 0;
 	background: url("bg003checkerboard.png");
-	/*background-size: 100px;*/
+	background-size: 100px;
 	background-repeat: repeat;
 	animation: slide 1.5s linear infinite;
 	image-rendering: pixelated;
