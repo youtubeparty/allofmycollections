@@ -1,7 +1,16 @@
 /* Default styles for desktop */
 
 body{
-	background-color: #ffc800;
+	background-color: #ffc800;	
+}
+
+#checkerboard{
+	height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index:1;
 	margin: 0;
 	padding: 0;
 	background: url("bg003checkerboard.png");
@@ -9,13 +18,6 @@ body{
 	background-repeat: repeat;
 	animation: slide 1.5s linear infinite;
 	image-rendering: pixelated;
-}
-
-.checkerboard{
-	display: flex;
-  	flex-wrap: wrap;
-  	justify-content: center;
-	
 }
 
 @keyframes slide{
