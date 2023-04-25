@@ -7,10 +7,10 @@ body{
 }
 
 #checkerboard{
-    position: absolute;
-    height: 110%;
-    width: 110%;
-    z-index:1;
+	position: absolute;
+	height: 110%;
+	width: 110%;
+	z-index:1;
 	margin: 0;
 	padding: 0;
 	background: url("bg003checkerboard.png");
