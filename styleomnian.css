@@ -1,0 +1,54 @@
+/* Default styles for desktop */
+
+body{
+	background-color: black;	
+	margin: 0px;
+	overflow: scroll;
+}
+
+p{
+	padding: 10px;
+	font-size: 2rem;
+	color: white;
+	-webkit-text-stroke: 1px black; 
+	font-family: Arial;
+	mix-blend-mode: difference;
+		
+}
+
+#checkerboard{
+	position: absolute;
+	height: 150%;
+	width: 100%;
+	z-index:1;
+	margin: 0;
+	padding: 0;
+	background: url("bg003checkerboard.png");
+	background-size: 100px;
+	background-repeat: repeat;
+	animation: slide 1.5s linear infinite;
+	image-rendering: pixelated;
+}
+
+@keyframes slide{
+	0%{
+		background-position: -100px -100px;
+	}
+	100%{
+		background-position: 0px 0px;
+	}
+}
+
+.title{
+	color: white;
+	font-size: 100px;
+	font-family: 'Comic Sans MS';
+	text-shadow: 5px 5px black;
+	text-align: center;
+	margin: auto;
+}
+
+
+
+
+
