@@ -3,7 +3,7 @@
 body{
 	background-color: black;	
 	margin: 0px;
-	overflow: hidden;
+	overflow: scroll;
 }
 
 #checkerboard{
