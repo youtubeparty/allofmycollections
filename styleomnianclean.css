@@ -1,0 +1,61 @@
+/* Default styles for desktop */
+
+body{
+	background-color: black;	
+	margin: 0px;
+	overflow: scroll;
+}
+
+p{
+	padding: 10px;
+	font-size: 2rem;
+	color: white;
+	-webkit-text-stroke: 1px black; 
+	font-family: Arial;
+		
+}
+
+
+
+a:link {
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+#checkerboard{
+	
+}
+
+@keyframes slide{
+	0%{
+		background-position: -100px -100px;
+	}
+	100%{
+		background-position: 0px 0px;
+	}
+}
+
+.title{
+	color: white;
+	font-size: 100px;
+	font-family: 'Comic Sans MS';
+	text-shadow: 5px 5px black;
+	text-align: center;
+	margin: auto;
+}
+
+
+
+
+
